@@ -18,21 +18,24 @@ export default function Home() {
               <div className={`${css.heroSubtitle} ${css.darkFrame}`}>The DefiSyndicate is a multi-phased project that aims to iterate on the current defi landscape and introduce new innovations. We are focused on sustainability, gamification, tradeable utility, and flexibility. </div>
           </Col>
         </Row>
-        <Row>
+        <Row id="description" className={css.anchorTag}>
           <Col className={`d-flex flex-column justify-content-center ${css.center}`}>
-            <div className={`${css.about2}`}>In order to innovate in this space you have to experiment and continuously adapt to the changing environment.</div>
-          </Col>
-        </Row>
-        <Row>
-          <Col className={`d-flex flex-column justify-content-center ${css.center}`}>
-            <div>
-              <Button>Join us for the journey!</Button>
+          <div className={`${css.heroSubtitle} ${css.darkFrame}`}>
+              In order to innovate in this space you have to experiment and continuously adapt to the changing environment.<br/>
+              <Button><a className={css.buyLink} target='_blank' rel='noopener noreferrer' href='https://medium.com/@DefiSyndicate/what-is-defisyndicate-45568f6ffbab' title='Defi Syndicate Litepaper'>Lite Paper</a></Button><Button><a className={css.buyLink} target='_blank' rel='noopener noreferrer' href='https://medium.com/@DefiSyndicate' title='Defi Syndicate Medium'>Medium</a></Button> 
             </div>
           </Col>
         </Row>
-        <Row className="d-none">
+        <Row id="chart" className={css.anchorTag}>
           <Col className={`d-flex flex-column justify-content-center ${css.center}`}>
             <Chart></Chart>
+          </Col>
+        </Row>
+        <Row id="buy" className={css.anchorTag}>
+          <Col className={`d-flex flex-column justify-content-center ${css.center}`}>
+            <div>
+              <Button><a className={css.buyLink} target='_blank' rel='noopener noreferrer' href='https://traderjoexyz.com/trade?outputCurrency=0x938e8B130E87D92d873FccA26bA144A32Ba12b93' title='Open in new window'>Join us for the journey!</a></Button>
+            </div>
           </Col>
         </Row>
       </Container>
