@@ -2,11 +2,16 @@
     backdrop-filter: blur(0.5rem);
 }
 
+.socialBar {
+    border-radius: 0.25rem;
+    color: red;
+}
+
 .logoText {
     font-family: "Chakra Petch Medium";
     font-size: 36px;
     margin-left: 12px;
-    margin-right: 32px;
+    margin-right: 6px;
 }
 
 .navItem{

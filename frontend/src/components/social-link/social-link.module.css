@@ -1,3 +1,5 @@
 .socialLinkContainer {
     margin: 12px;
+    display: inline-flex;
+    display: inline-block;
 }
