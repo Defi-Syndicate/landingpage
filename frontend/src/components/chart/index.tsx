@@ -8,7 +8,7 @@ const Chart = (): JSX.Element => {
             <Row>
                 <Col>
                     <div className={css.dexScreenerEmbed} id="dexscreener-embed">
-                        <iframe className={css.dexScreenerEmbedIframe} src="https://dexscreener.com/avalanche/0x938e8B130E87D92d873FccA26bA144A32Ba12b93?embed=1"></iframe>
+                        <iframe className={css.dexScreenerEmbedIframe} src="https://dexscreener.com/avalanche/0x6507ccd0a6c1b89ef6c79fd42ff16c15d2e6df97?embed=1"></iframe>
                     </div>
                 </Col>
             </Row>
