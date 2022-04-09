@@ -14,7 +14,7 @@ const Header = (): JSX.Element => {
                     <Nav className={css.navItem}>
                         <Nav.Link title='About' href="#about">About</Nav.Link>
                         <Nav.Link title='DEX Chart' href="#chart">Chart</Nav.Link>
-                        <Nav.Link title='Buy $SIN' href="https://traderjoexyz.com/trade?outputCurrency=0xA171629637C3266b4247551eE67ffdD3f03Fb0b5">Buy</Nav.Link>
+                        <Nav.Link title='Buy $SIN' href="https://traderjoexyz.com/trade?outputCurrency=0x17103cae8C45713c8f94C2c279D166b46480cc9A">Buy</Nav.Link>
                         <div className={css.socialBar}>
                             <SocialLink title="discord"></SocialLink>
                             <SocialLink title="twitter"></SocialLink>
