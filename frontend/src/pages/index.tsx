@@ -34,7 +34,7 @@ export default function Home() {
         <Row id="buy" className={css.anchorTag}>
           <Col className={`d-flex flex-column justify-content-center ${css.center}`}>
             <div>
-              <Button><a className={css.buyLink} target='_blank' rel='noopener noreferrer' href='https://traderjoexyz.com/trade?outputCurrency=0xA171629637C3266b4247551eE67ffdD3f03Fb0b5' title='Open in new window'>Join us for the journey!</a></Button>
+              <Button><a className={css.buyLink} target='_blank' rel='noopener noreferrer' href='https://traderjoexyz.com/trade?outputCurrency=0x17103cae8C45713c8f94C2c279D166b46480cc9A' title='Open in new window'>Join us for the journey!</a></Button>
             </div>
           </Col>
         </Row>
